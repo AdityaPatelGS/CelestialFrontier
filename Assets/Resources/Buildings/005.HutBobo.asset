@@ -1,0 +1,33 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7d48f4752ffbcc14eb374de651ff1bd2, type: 3}
+  m_Name: 005.HutBobo
+  m_EditorClassIdentifier: 
+  building_Name: BOBO'S HUT
+  building_Level: 0
+  building_IridiumBoostPerLevel: 1
+  building_DarkElixirPerSecond: 0
+  building_DarkElixirBoostPerLevel: 1
+  building_BaseCost: 7000000000
+  building_CostMultiplier: 1
+  building_UpgradeCosts:
+  - 7000000000
+  - -1
+  buildingPrefabs:
+  - {fileID: 6266144306655350661, guid: d0d3d0e8557e6874f8de5a1e62e46f74, type: 3}
+  - {fileID: 273390767343105895, guid: fe4ec3b9a012abd4d860f0bd351297dd, type: 3}
+  upgradeVisualFX:
+  - {fileID: 8926484042661614526, guid: b433b97cdbd6f084290510f7e7d9950e, type: 3}
+  levelUpUnlocks:
+  - level: 1
+    unlockedTroops:
+    - {fileID: 11400000, guid: ab014bfe7f461aa44be5a666227b9baf, type: 2}

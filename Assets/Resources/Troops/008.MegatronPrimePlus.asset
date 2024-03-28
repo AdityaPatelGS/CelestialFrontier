@@ -1,0 +1,30 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2a0528895cb020c4283e95d2d50c2237, type: 3}
+  m_Name: 008.MegatronPrimePlus
+  m_EditorClassIdentifier: 
+  troop_Name: Megatron Prime Plus
+  troop_LockedSprite: {fileID: 21300000, guid: 2e6e30b89e98c7c4ab88b8be49fb08ee, type: 3}
+  troop_UnlockedSprite: {fileID: 21300000, guid: 2606a2e6a832fbf4193bbb2101598b93,
+    type: 3}
+  troop_Prefab: {fileID: 8879188356053367715, guid: 6a4757e28aedb5b4db17072ec60e7cb8,
+    type: 3}
+  troop_SpawnParticleSystem: {fileID: 0}
+  troop_AfterReachAnimation: 
+  troop_Level: 1
+  troops_Owned: 0
+  troop_BaseCost: 70000000000
+  troop_CostMultiplier: 1.2
+  troop_BaseUpgradeCost: 0.8
+  troop_UpgradeCostMultiplier: 1.25
+  troop_BaseIridiumPerSecond: 1500000
+  troop_IridiumBoostPerLevel: 1

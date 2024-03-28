@@ -1,0 +1,30 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2a0528895cb020c4283e95d2d50c2237, type: 3}
+  m_Name: 003.TeraMine
+  m_EditorClassIdentifier: 
+  troop_Name: Excavator
+  troop_LockedSprite: {fileID: 21300000, guid: 663dac5b318e3e8448111c86f950eb85, type: 3}
+  troop_UnlockedSprite: {fileID: 21300000, guid: 4b31884c4f93a944a823c91fcc2250c4,
+    type: 3}
+  troop_Prefab: {fileID: 8827858220071154008, guid: 98824f163332b474ea270b6b54ceefcc,
+    type: 3}
+  troop_SpawnParticleSystem: {fileID: 0}
+  troop_AfterReachAnimation: 
+  troop_Level: 1
+  troops_Owned: 0
+  troop_BaseCost: 14500
+  troop_CostMultiplier: 1.2
+  troop_BaseUpgradeCost: 0.3
+  troop_UpgradeCostMultiplier: 1.25
+  troop_BaseIridiumPerSecond: 58
+  troop_IridiumBoostPerLevel: 1.5
